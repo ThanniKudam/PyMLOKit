@@ -1,6 +1,6 @@
 # PyMLOKit
 
-**PyMLOKit** is a comprehensive, open-source **MLOps Attack Toolkit** written in Python. It is designed to help security researchers and red teamers assess the security posture of MLOps environments by interacting with their APIs to enumerate resources, verify credentials, and simulate attack paths (e.g., model theft, poisoning, data exfiltration).
+**PyMLOKit** is a toolkit that can be used to attack MLOps platforms by taking advantage of the available REST API. This tool allows the user to specify an attack module, along with specifying valid credentials for the respective MLOps platform. The attack modules supported include reconnaissance, training data theft, model theft, model poisoning, and notebook attacks. MLOKit was built in a modular approach, so that new modules can be added in the future by the information security community.
 
 ## Credits & Origins
 
